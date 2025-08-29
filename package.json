@@ -1,0 +1,27 @@
+{
+  "name": "llm-for-web-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.4.7",
+    "@langchain/openai": "^0.6.9",
+    "@tavily/core": "^0.5.11",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "langchain": "^0.3.31",
+    "serpapi": "^2.2.1",
+    "serper": "^1.0.6",
+    "zod": "^3.25.76"
+  }
+}
